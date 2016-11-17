@@ -1,5 +1,6 @@
 # これはなに？
 社内向けのAWS勉強会用の資料
+
 この資料はVPC編であり、EC2を立てるまでがメインとなっています
 
 ## 対象者
@@ -14,18 +15,21 @@
 - トラブル時にどのサーバが原因か特定できる
 
 ## 登場人物
-- VPC
-  - Subnet
-  - Route Table
-  - Internet Gateway
-  - Security Group
-- EC2
-  - Instance
-  - AMI
-  - Key Pair
-- ELB
-  - Health Check
-  - Listeners
-- Scaling
-  - Launch Configuration
-  - Auto Scaling Group
+#### VPC
+- Subnet
+- Route Table
+- Internet Gateway
+- Security Group
+
+#### EC2
+- Instance
+- AMI
+- Key Pair
+
+#### ELB
+- Health Check
+- Listeners
+
+#### Scaling
+- Launch Configuration
+- Auto Scaling Group
